@@ -23,3 +23,8 @@ for article in articles:
 
 driver.close()   #đóng trình duyệt
 # driver.quit()    #đóng tất cả thứ liên quan driver mở ra
+
+#find_element khác find_elements
+
+# find_element tìm và trả phần tử đầu tiên phù hợp vs ĐK nếu ko thấy sẽ trả exception "NoSuchElementException"
+# find_elements trả về danh sách phần tử nếu ko thấy sẽ trả về danh sách rỗng
